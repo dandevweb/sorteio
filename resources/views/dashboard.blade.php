@@ -6,9 +6,13 @@
     </x-slot>
 
     <div class="py-12">
-        <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="flex flex-col mx-auto max-w-7xl sm:px-6 lg:px-8 gap-y-8">
+
+            {{-- <livewire:candidate.create /> --}}
+            {{-- <livewire:candidate.search /> --}}
+
             <div class="overflow-hidden text-white bg-white shadow-sm dark:bg-gray-800 sm:rounded-lg">
-                <livewire:sorteio />
+                <livewire:sorteio lazy />
             </div>
         </div>
     </div>
